@@ -16,4 +16,9 @@ def test_divide(a, b):
 
 
 
-
+'''
+Steps to run allure report - 
+1.add allure-2.29.0 to your environment variable
+2. python -m pytest --alluredir allure-results --clean-alluredir
+3. allure serve allure-results
+'''
